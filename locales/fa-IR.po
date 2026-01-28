@@ -1104,7 +1104,7 @@ msgstr "رایگان"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
 msgid "Free-Form"
-msgstr ""
+msgstr "فرم آزاد"
 
 #: src/utils/locale.ts
 msgid "French"
@@ -1402,7 +1402,7 @@ msgstr "تراز چپ"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
 msgid "Letter"
-msgstr ""
+msgstr "نامه"
 
 #: src/dialogs/resume/sections/language.tsx
 #: src/dialogs/resume/sections/skill.tsx
@@ -1747,7 +1747,7 @@ msgstr "ترجیحات"
 
 #: src/components/input/chip-input.tsx
 msgid "Press <0>{RETURN_KEY}</0> or <1>{COMMA_KEY}</1> to add or save the current keyword."
-msgstr ""
+msgstr "برای افزودن یا ذخیره کلمه کلیدی فعلی <0>{RETURN_KEY}</0> یا <1>{COMMA_KEY}</1> را فشار دهید."
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
 msgid "Primary Color"
@@ -1831,7 +1831,7 @@ msgstr "مستطیل (تمام‌عرض)"
 #: src/routes/builder/$resumeId/-components/dock.tsx
 msgctxt "'Ctrl' may be replaced with the locale-specific equivalent (e.g. 'Strg' for QWERTZ layouts)."
 msgid "Redo (Ctrl+Y)"
-msgstr ""
+msgstr "انجام مجدد (Ctrl+Y)"
 
 #: src/utils/resume/section.tsx
 msgid "References"
@@ -2457,7 +2457,7 @@ msgstr "زیرخط"
 #: src/routes/builder/$resumeId/-components/dock.tsx
 msgctxt "'Ctrl' may be replaced with the locale-specific equivalent (e.g. 'Strg' for QWERTZ layouts)."
 msgid "Undo (Ctrl+Z)"
-msgstr ""
+msgstr "بازگردانی (Ctrl+Z)"
 
 #: src/routes/_home/-sections/features.tsx
 msgid "Unlimited Resumes"

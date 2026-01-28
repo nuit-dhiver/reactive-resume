@@ -1831,7 +1831,7 @@ msgstr "Rektangel (full bredd)"
 #: src/routes/builder/$resumeId/-components/dock.tsx
 msgctxt "'Ctrl' may be replaced with the locale-specific equivalent (e.g. 'Strg' for QWERTZ layouts)."
 msgid "Redo (Ctrl+Y)"
-msgstr ""
+msgstr "Gör om (Ctrl+Y)"
 
 #: src/utils/resume/section.tsx
 msgid "References"
@@ -2457,7 +2457,7 @@ msgstr "Understrykning"
 #: src/routes/builder/$resumeId/-components/dock.tsx
 msgctxt "'Ctrl' may be replaced with the locale-specific equivalent (e.g. 'Strg' for QWERTZ layouts)."
 msgid "Undo (Ctrl+Z)"
-msgstr ""
+msgstr "Ångra (Ctrl+Z)"
 
 #: src/routes/_home/-sections/features.tsx
 msgid "Unlimited Resumes"
