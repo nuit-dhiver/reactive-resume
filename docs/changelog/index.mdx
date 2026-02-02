@@ -4,6 +4,15 @@ description: "List of all notable changes and updates to Reactive Resume"
 rss: true
 ---
 
+<Update label="v5.0.5" description="31st January 2026">
+  - Implement Cover Letter functionality in the resume builder, allowing the user to create cover letters as custom sections. [(link)](/guides/adding-a-cover-letter)
+  - Implement full-screen mode for the rich text editor in the resume builder, allowing the user to write in a more focused environment.
+  - Implement a new custom section type: `summary`, which allows the user to add another "summary" like section to the resume.
+  - Implement a `useFormBlocker` hook to prevent the user from closing a dialog while the form has unsaved changes.
+  - Fix an issue where keywords spacing was not consistent in the interests section. [#2631](https://github.com/amruthpillai/reactive-resume/pull/2631)
+  - Fix an issue where the AI connection test was not working correctly, also return appropriate error messages for AI provider issues.
+</Update>
+
 <Update label="v5.0.4" description="28th January 2026">
   - Bring back Undo/Redo functionality in the resume builder for improved editing experience.
   - Arrange the sidebar builder dynamically based on the section type in each template. [#2564](https://github.com/amruthpillai/reactive-resume/pull/2603)
