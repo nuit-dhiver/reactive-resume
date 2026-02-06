@@ -1,0 +1,279 @@
+{
+	"$schema": "https://rxresu.me/schema.json",
+	"picture": {
+		"hidden": true,
+		"url": "",
+		"size": 80,
+		"rotation": 0,
+		"aspectRatio": 1,
+		"borderRadius": 0,
+		"borderColor": "rgba(0, 0, 0, 0.5)",
+		"borderWidth": 0,
+		"shadowColor": "rgba(0, 0, 0, 0.5)",
+		"shadowWidth": 0
+	},
+	"basics": {
+		"name": "Jane Doe",
+		"headline": "Full-Stack Developer",
+		"email": "jane.doe@example.com",
+		"phone": "+1 (555) 123-4567",
+		"location": "San Francisco, CA",
+		"website": {
+			"url": "https://janedoe.dev",
+			"label": "janedoe.dev"
+		},
+		"customFields": []
+	},
+	"summary": {
+		"title": "Summary",
+		"columns": 1,
+		"hidden": false,
+		"content": "<p>Experienced full-stack developer with 5+ years building scalable web applications. Passionate about clean code, type safety, and great developer experience.</p>"
+	},
+	"sections": {
+		"profiles": {
+			"title": "Profiles",
+			"columns": 3,
+			"hidden": false,
+			"items": [
+				{
+					"id": "profile-1",
+					"hidden": false,
+					"icon": "",
+					"network": "GitHub",
+					"username": "janedoe",
+					"website": { "url": "https://github.com/janedoe", "label": "github.com/janedoe" }
+				},
+				{
+					"id": "profile-2",
+					"hidden": false,
+					"icon": "",
+					"network": "LinkedIn",
+					"username": "janedoe",
+					"website": { "url": "https://linkedin.com/in/janedoe", "label": "linkedin.com/in/janedoe" }
+				}
+			]
+		},
+		"experience": {
+			"title": "Experience",
+			"columns": 1,
+			"hidden": false,
+			"items": [
+				{
+					"id": "exp-1",
+					"hidden": false,
+					"company": "Acme Corp",
+					"position": "Senior Full-Stack Developer",
+					"location": "San Francisco, CA",
+					"period": "Jan 2022 - Present",
+					"website": { "url": "", "label": "" },
+					"description": "<p>Led the development of a customer-facing dashboard serving 50k+ users. Implemented real-time data streaming with WebSockets and reduced page load times by 40%.</p><ul><li>Built microservices architecture using Node.js and PostgreSQL</li><li>Mentored a team of 3 junior developers</li></ul>"
+				},
+				{
+					"id": "exp-2",
+					"hidden": false,
+					"company": "StartupXYZ",
+					"position": "Full-Stack Developer",
+					"location": "Remote",
+					"period": "Jun 2019 - Dec 2021",
+					"website": { "url": "", "label": "" },
+					"description": "<p>Core contributor to the company's SaaS platform. Worked across the stack from React frontend to Python/Django backend.</p><ul><li>Designed and implemented RESTful APIs used by 10+ third-party integrations</li><li>Migrated legacy jQuery codebase to React, improving maintainability</li></ul>"
+				}
+			]
+		},
+		"education": {
+			"title": "Education",
+			"columns": 1,
+			"hidden": false,
+			"items": [
+				{
+					"id": "edu-1",
+					"hidden": false,
+					"school": "University of California, Berkeley",
+					"degree": "Bachelor of Science",
+					"area": "Computer Science",
+					"grade": "3.8 GPA",
+					"location": "Berkeley, CA",
+					"period": "2015 - 2019",
+					"website": { "url": "", "label": "" },
+					"description": ""
+				}
+			]
+		},
+		"projects": {
+			"title": "Projects",
+			"columns": 1,
+			"hidden": false,
+			"items": [
+				{
+					"id": "proj-1",
+					"hidden": false,
+					"name": "Open Source CLI Tool",
+					"period": "2023",
+					"website": { "url": "https://github.com/janedoe/cli-tool", "label": "View on GitHub" },
+					"description": "<p>A command-line tool for automating development workflows. 500+ GitHub stars.</p>"
+				}
+			]
+		},
+		"skills": {
+			"title": "Skills",
+			"columns": 2,
+			"hidden": false,
+			"items": [
+				{
+					"id": "skill-1",
+					"hidden": false,
+					"icon": "",
+					"name": "TypeScript / JavaScript",
+					"proficiency": "Expert",
+					"level": 5,
+					"keywords": ["React", "Node.js", "Next.js"]
+				},
+				{
+					"id": "skill-2",
+					"hidden": false,
+					"icon": "",
+					"name": "Python",
+					"proficiency": "Advanced",
+					"level": 4,
+					"keywords": ["Django", "FastAPI"]
+				},
+				{
+					"id": "skill-3",
+					"hidden": false,
+					"icon": "",
+					"name": "Databases",
+					"proficiency": "Advanced",
+					"level": 4,
+					"keywords": ["PostgreSQL", "Redis", "MongoDB"]
+				},
+				{
+					"id": "skill-4",
+					"hidden": false,
+					"icon": "",
+					"name": "DevOps",
+					"proficiency": "Intermediate",
+					"level": 3,
+					"keywords": ["Docker", "AWS", "CI/CD"]
+				}
+			]
+		},
+		"languages": {
+			"title": "Languages",
+			"columns": 2,
+			"hidden": false,
+			"items": [
+				{
+					"id": "lang-1",
+					"hidden": false,
+					"language": "English",
+					"fluency": "Native",
+					"level": 5
+				},
+				{
+					"id": "lang-2",
+					"hidden": false,
+					"language": "Spanish",
+					"fluency": "Conversational",
+					"level": 3
+				}
+			]
+		},
+		"interests": {
+			"title": "Interests",
+			"columns": 1,
+			"hidden": true,
+			"items": []
+		},
+		"awards": {
+			"title": "Awards",
+			"columns": 1,
+			"hidden": true,
+			"items": []
+		},
+		"certifications": {
+			"title": "Certifications",
+			"columns": 1,
+			"hidden": false,
+			"items": [
+				{
+					"id": "cert-1",
+					"hidden": false,
+					"title": "AWS Solutions Architect Associate",
+					"issuer": "Amazon Web Services",
+					"date": "2023",
+					"website": { "url": "", "label": "" },
+					"description": ""
+				}
+			]
+		},
+		"publications": {
+			"title": "Publications",
+			"columns": 1,
+			"hidden": true,
+			"items": []
+		},
+		"volunteer": {
+			"title": "Volunteer",
+			"columns": 1,
+			"hidden": true,
+			"items": []
+		},
+		"references": {
+			"title": "References",
+			"columns": 1,
+			"hidden": true,
+			"items": []
+		}
+	},
+	"customSections": [],
+	"metadata": {
+		"template": "onyx",
+		"layout": {
+			"sidebarWidth": 35,
+			"pages": [
+				{
+					"fullWidth": false,
+					"main": ["profiles", "summary", "experience", "education", "projects"],
+					"sidebar": ["skills", "certifications", "languages"]
+				}
+			]
+		},
+		"css": { "enabled": false, "value": "" },
+		"page": {
+			"gapX": 4,
+			"gapY": 6,
+			"marginX": 14,
+			"marginY": 12,
+			"format": "a4",
+			"locale": "en-US",
+			"hideIcons": false
+		},
+		"design": {
+			"colors": {
+				"primary": "rgba(37, 99, 235, 1)",
+				"text": "rgba(0, 0, 0, 1)",
+				"background": "rgba(255, 255, 255, 1)"
+			},
+			"level": {
+				"icon": "star",
+				"type": "circle"
+			}
+		},
+		"typography": {
+			"body": {
+				"fontFamily": "IBM Plex Serif",
+				"fontWeights": ["400", "500"],
+				"fontSize": 10,
+				"lineHeight": 1.5
+			},
+			"heading": {
+				"fontFamily": "IBM Plex Serif",
+				"fontWeights": ["600"],
+				"fontSize": 14,
+				"lineHeight": 1.5
+			}
+		},
+		"notes": ""
+	}
+}

@@ -15,3 +15,4 @@ node_modules
 public/sw.js
 scripts/**/*.json
 public/workbox-*.js
+tools/**/*.pdf

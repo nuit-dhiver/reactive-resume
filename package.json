@@ -28,6 +28,7 @@
 		"lingui:extract": "lingui extract --clean --overwrite",
 		"lint": "biome check --write .",
 		"start": "node .output/server/index.mjs",
+		"tool:pdf": "tsx tools/json-to-pdf.ts",
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
